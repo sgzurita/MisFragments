@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.misfragments.BotoneraFragment">
+
+
+    <Button
+        android:id="@+id/buttonMoveFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="First" />
+
+    <Button
+        android:id="@+id/buttonMovePrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Previous" />
+
+    <Button
+        android:id="@+id/buttonMoveNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/buttonMoveLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Last" />
+</LinearLayout>
